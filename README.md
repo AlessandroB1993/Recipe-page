@@ -1,17 +1,7 @@
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Acknowledgments](#acknowledgments)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
 
 ## My process
 
