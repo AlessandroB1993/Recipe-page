@@ -41,7 +41,7 @@ html {
 }
 
 body {
-  background-color: var(--stone-150);
+  background-color: var(--rose-50);
   display: flex;
   flex-direction: column;
 }
@@ -90,7 +90,7 @@ h2 {
 
 .recipe-header__description {
   color: var(--stone-600);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .recipe-section--prep-time {
@@ -105,6 +105,11 @@ h2 {
 
 .recipe-section {
   padding-bottom: 1.5rem;
+}
+
+.recipe-section--ingredients {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--stone-150);
 }
 
 .recipe-section--instructions {
@@ -183,14 +188,14 @@ li {
 
 .macro {
   display: inline-block;
-  width: 8rem;
+  width: 20rem;
 }
 
 @media screen and (min-width: 375px) {
   .recipe {
-    max-width: 680px;
+    max-width: 750px;
     border-radius: 2rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
   }
 
   body {
